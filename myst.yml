@@ -1,0 +1,171 @@
+# See docs at: https://mystmd.org/guide/frontmatter
+version: 1
+project:
+  id: f718c15b-824f-4326-9628-575a46bb455b
+  # keep identical to the title in paper.md frontmatter
+  title: 'Probing gray matter microstructure differences in neurodegenerative dementia using b-tensor encoding diffusion MRI'
+  # one entry per department; full text in `institution` because the site theme shows only the name, not `department`
+  affiliations:
+    - id: robarts
+      institution: Robarts Research Institute, Schulich School of Medicine & Dentistry, Western University
+      ror: https://ror.org/02grkyz14
+      city: London
+      region: Ontario
+      country: Canada
+    - id: uwo-cns
+      institution: Department of Clinical Neurological Sciences, Schulich School of Medicine & Dentistry, Western University
+      ror: https://ror.org/02grkyz14
+      city: London
+      region: Ontario
+      country: Canada
+    - id: uwo-mdphd
+      institution: MD/PhD Program & Graduate Program in Neuroscience, Schulich School of Medicine & Dentistry, Western University
+      ror: https://ror.org/02grkyz14
+      city: London
+      region: Ontario
+      country: Canada
+    - id: uwo-mbp
+      institution: Department of Medical Biophysics, Schulich School of Medicine & Dentistry, Western University
+      ror: https://ror.org/02grkyz14
+      city: London
+      region: Ontario
+      country: Canada
+  authors:
+    - name: Ricardo Rios-Carrillo
+      roles:
+        - "Conceptualization"
+        - "Methodology"
+        - "Software"
+        - "Validation"
+        - "Formal analysis"
+        - "Investigation"
+        - "Data curation"
+        - "Writing – original draft"
+        - "Writing – review & editing"
+        - "Visualization"
+        - "Project administration"
+      affiliations:
+        - robarts
+      orcid: 0000-0002-8344-5624
+      email: rrioscar@uwo.ca
+    - name: Rubina Malik
+      roles:
+        - "Investigation"
+        - "Writing – review & editing"
+      affiliations:
+        - robarts
+        - uwo-cns
+      email: rmalik42@uwo.ca
+    - name: Isis So
+      roles:
+        - "Investigation"
+        - "Writing – review & editing"
+      orcid: 0000-0001-6232-2644
+      email: cso2026@meds.uwo.ca
+      affiliations:
+        - robarts
+        - uwo-mdphd
+    - name: Kyeongrim Moon
+      roles:
+        - "Data curation"
+        - "Writing – review & editing"
+      orcid: 0009-0000-4330-1987
+      email: kmoon29@uwo.ca
+      affiliations:
+        - uwo-mbp
+    - name: Ali R. Khan
+      roles:
+        - "Investigation"
+        - "Writing – review & editing"
+      orcid: 0000-0002-0760-8647
+      affiliations:
+        - robarts
+        - uwo-mbp
+      email: ali.khan@uwo.ca
+    - name: Elizabeth Finger
+      roles:
+        - "Conceptualization"
+        - "Investigation"
+        - "Resources"
+        - "Writing – review & editing"
+        - "Supervision"
+        - "Funding acquisition"
+      orcid: 0000-0003-4461-7427
+      affiliations:
+        - robarts
+        - uwo-cns
+      email: elizabeth.finger@lhsc.on.ca
+    - name: Corey A. Baron
+      roles:
+        - "Conceptualization"
+        - "Methodology"
+        - "Resources"
+        - "Writing – review & editing"
+        - "Supervision"
+        - "Funding acquisition"
+      orcid: 0000-0001-7343-5580
+      affiliations:
+        - robarts
+        - uwo-mbp
+      email: corey.baron@uwo.ca
+      corresponding: true
+  keywords:
+    - dMRI b-tensor encoding
+    - microscopic fractional anisotropy
+    - neurodegenerative dementia
+    - hippocampal subfields
+    - magnetization transfer
+  github: https://github.com/RicardoRios46/hyades_neurolibre
+  banner: static/Hipp_uFA.png
+  venue: NeuroLibre
+  subject: Living Preprint
+  numbering:
+    heading: true
+  doi: 10.55458/neurolibre.xxxxx  # placeholder, assigned by NeuroLibre on publication
+  date: 2026-10-08  # NeuroLibre submission date
+  open_access: true
+  license:
+    content: CC-BY-4.0
+    code: MIT
+  abbreviations:
+    AD: Alzheimer's disease
+    FTD: Frontotemporal dementia
+    LBD: Lewy body dementia
+    HC: Healthy controls
+    TR: Repetition time
+    TE: Echo time
+    T1w: T1-weighted
+    T2w: T2-weighted
+    dMRI: Diffusion-weighted magnetic resonance imaging
+    DTI: Diffusion tensor imaging
+    MD: Mean diffusivity
+    FA: Fractional anisotropy
+    µFA: Microscopic fractional anisotropy
+    Ki: Isotropic kurtosis
+    MTsat: Magnetization transfer saturation
+    ANCOVA: Analysis of covariance
+    FDR: False discovery rate
+    ROI: Region of interest
+    MhD: Mahalanobis distance
+    CSF: Cerebrospinal fluid
+    DG: Dentate gyrus
+    NODDI: Neurite orientation dispersion and density imaging
+    SANDI: Soma and neurite density imaging
+    CA1: Cornu ammonis field 1
+    CA2: Cornu ammonis field 2
+    CA3: Cornu ammonis field 3
+    CA4: Cornu ammonis field 4
+    MoCA: Montreal Cognitive Assessment
+    FOV: Field of view
+    GRAPPA: Generalized autocalibrating partially parallel acquisitions
+    HYADES: Hybrid co-clinical platform for accelerated randomized controlled trials in neurodegenerative dementias
+  bibliography:
+    - paper.bib
+  resources:
+    - supplementary.md
+    - content/demographics.ipynb
+    - content/section1_wholebrain.ipynb
+    - content/section2_hippocampus.ipynb
+site:
+  template: article-theme
+  # site title: inherited from project.title

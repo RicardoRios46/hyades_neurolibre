@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--?xml version="1.0" encoding="UTF-8"?-->
+
+<svg
+   width="1074.207"
+   height="311.71991"
+   viewBox="0 0 1074.207 311.71991"
+   version="1.1"
+   id="svg16"
+   sodipodi:docname="finished_template.svg"
+   inkscape:version="1.4 (86a8ad7, 2024-10-11)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs16" />
+  <sodipodi:namedview
+     id="namedview16"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="1.145513"
+     inkscape:cx="516.36254"
+     inkscape:cy="149.71458"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg16" />
+  <style
+     id="style1">
+.axis{stroke:#000;stroke-width:3;fill:none}
+.wave{stroke:#000;stroke-width:4;fill:none;
+      stroke-linejoin:miter;stroke-linecap:square}
+.zero{stroke:#000;stroke-width:2.5;stroke-dasharray:14 10}
+.tick{stroke:#000;stroke-width:3}
+.label{
+    font-family:Helvetica,Arial,sans-serif;
+    font-size:34px;
+}
+.ylabel{
+    font-family:Helvetica,Arial,sans-serif;
+    font-size:34px;
+    font-style:italic;
+}
+</style>
+  <!-- ================= PANEL 1 ================= -->
+  <!-- ================= PANEL 2 ================= -->
+  <line
+     class="zero"
+     x1="94.207016"
+     y1="120.87609"
+     x2="1074.207"
+     y2="120.87609"
+     id="line2" />
+  <!-- ================= PANEL 3 ================= -->
+  <!-- ==== x ticks ==== -->
+  <g
+     class="tick"
+     id="g8"
+     transform="translate(-25.792985,-580.09401)">
+    <line
+       x1="170"
+       y1="810"
+       x2="170"
+       y2="830"
+       id="line4" />
+    <line
+       x1="380"
+       y1="810"
+       x2="380"
+       y2="830"
+       id="line5" />
+    <line
+       x1="590"
+       y1="810"
+       x2="590"
+       y2="830"
+       id="line6" />
+    <line
+       x1="800"
+       y1="810"
+       x2="800"
+       y2="830"
+       id="line7" />
+    <line
+       x1="1010"
+       y1="810"
+       x2="1010"
+       y2="830"
+       id="line8" />
+  </g>
+  <!-- x labels -->
+  <text
+     class="label"
+     x="134.20702"
+     y="275.02948"
+     id="text8"
+     style="font-size:26.6667px">0</text>
+  <text
+     class="label"
+     x="339.207"
+     y="275.02948"
+     id="text9"
+     style="font-size:26.6667px">20</text>
+  <text
+     class="label"
+     x="549.20703"
+     y="275.02948"
+     id="text10"
+     style="font-size:26.6667px">40</text>
+  <text
+     class="label"
+     x="759.20703"
+     y="275.02948"
+     id="text11"
+     style="font-size:26.6667px">60</text>
+  <text
+     class="label"
+     x="969.20703"
+     y="275.02948"
+     id="text12"
+     style="font-size:26.6667px">80</text>
+  <text
+     class="label"
+     x="584.20703"
+     y="305.02948"
+     text-anchor="middle"
+     font-size="40"
+     id="text13">Time [ms]</text>
+  <!-- y labels -->
+  <g
+     transform="rotate(-90,108.50242,83.483861)"
+     id="g15">
+    <text
+       class="ylabel"
+       id="text15">G [mT/m]</text>
+  </g>
+  <path
+     style="fill:none;stroke:#1f77b4;stroke-width:3;stroke-linecap:round;stroke-linejoin:round"
+     d="m 146.57217,117.98672 8.94952,86.51241 h 85.02074 l 8.20376,-85.02081 7.45801,-43.256104 h 272.96127 l 7.45792,44.747724 h 117.83586 l 8.20374,42.51038 h 271.46965 l 8.20375,-45.4936 5.96651,-84.274934 h 85.7665 l 8.9495,87.258154"
+     id="gx"
+     fill="none"
+     stroke="#1f77b4"
+     stroke-width="2.5" />
+  <path
+     style="fill:none;stroke:#d95f02;stroke-width:3;stroke-linecap:round;stroke-linejoin:round"
+     d="m 145.82638,119.50335 h 102.91981 l 6.71215,-93.970224 H 384.4811 L 399.39698,214.9653 h 128.27693 l 8.20375,-93.97029 h 118.58159 l 7.45785,93.97029 h 129.76859 l 12.6785,-188.686394 h 132.00576 l 6.71223,94.716104 h 100.68262"
+     id="gy"
+     fill="none"
+     stroke="#d95f02"
+     stroke-width="2.5" />
+  <path
+     style="fill:none;stroke:#2ca02c;stroke-width:3;stroke-linecap:round;stroke-linejoin:round"
+     d="m 146.90686,120.22916 8.0542,-85.575724 h 85.57575 l 6.04061,87.589194 9.06093,16.10848 h 272.83557 l 9.06097,-18.12195 h 116.78563 l 8.05422,-18.12188 h 272.83537 l 8.05432,21.14209 6.04064,83.56227 h 87.58923 l 7.0475,-88.59605"
+     id="gz"
+     fill="none"
+     stroke="#2ca02c"
+     stroke-width="2.5" />
+  <text
+     x="43.78133"
+     y="18.697941"
+     id="text4"
+     style="font-size:26.6667px;font-family:Helvetica, Arial, sans-serif">80</text>
+  <text
+     x="43.872456"
+     y="75.057793"
+     id="text5"
+     style="font-size:26.6667px;font-family:Helvetica, Arial, sans-serif">40</text>
+  <text
+     x="51.209736"
+     y="128.25308"
+     id="text6"
+     style="font-size:26.6667px;font-family:Helvetica, Arial, sans-serif">0</text>
+  <text
+     x="29.035458"
+     y="181.50049"
+     id="text7"
+     style="font-size:26.6667px;font-family:Helvetica, Arial, sans-serif">−40</text>
+  <text
+     x="29.035458"
+     y="237.217"
+     id="text8-4"
+     style="font-size:26.6667px;font-family:Helvetica, Arial, sans-serif">−80</text>
+  <path
+     style="fill:none;stroke:#000000;stroke-width:3.08325;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
+     d="M 88.612793,4.3363198 V 230.82257 H 1070.1948"
+     id="path1"
+     sodipodi:nodetypes="ccc" />
+  <path
+     style="fill:none;stroke:#000000;stroke-width:3.15981;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
+     d="M 87.799557,5.9043028 H 76.842768"
+     id="path2" />
+  <path
+     style="fill:none;stroke:#000000;stroke-width:3.15981;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
+     d="M 87.799557,64.829868 H 76.842768"
+     id="path3" />
+  <path
+     style="fill:none;stroke:#000000;stroke-width:3.15981;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
+     d="M 87.799557,120.70003 H 76.842768"
+     id="path4" />
+  <path
+     style="fill:none;stroke:#000000;stroke-width:3.15981;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
+     d="M 87.799557,172.20534 H 76.842768"
+     id="path5" />
+  <path
+     style="fill:none;stroke:#000000;stroke-width:3.15981;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
+     d="M 87.799557,230.79805 H 76.842768"
+     id="path6" />
+  <line
+     x1="562.76898"
+     y1="15.76158"
+     x2="612.76898"
+     y2="15.76158"
+     class="gx"
+     id="line18"
+     style="fill:none;stroke:#1f77b4;stroke-width:4;stroke-linecap:square;stroke-linejoin:miter" />
+  <text
+     x="616.6579"
+     y="23.76158"
+     id="text19"
+     style="font-size:26.6667px;font-family:Helvetica, Arial, sans-serif">Gx</text>
+  <line
+     x1="562.76898"
+     y1="38.415897"
+     x2="612.76898"
+     y2="38.415897"
+     class="gy"
+     id="line19"
+     style="fill:none;stroke:#ff7f0e;stroke-width:4;stroke-linecap:square;stroke-linejoin:miter" />
+  <text
+     x="616.6579"
+     y="46.415897"
+     id="text20"
+     style="font-size:26.6667px;font-family:Helvetica, Arial, sans-serif">Gy</text>
+  <line
+     x1="562.76898"
+     y1="63.539356"
+     x2="612.76898"
+     y2="63.539356"
+     class="gz"
+     id="line20"
+     style="fill:none;stroke:#2ca02c;stroke-width:4;stroke-linecap:square;stroke-linejoin:miter" />
+  <text
+     x="616.6579"
+     y="71.53936"
+     id="text21"
+     style="font-size:26.6667px;font-family:Helvetica, Arial, sans-serif">Gz</text>
+</svg>
