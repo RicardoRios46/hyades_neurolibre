@@ -22,7 +22,7 @@ binder-env = { cmd = "pixi workspace export conda-environment --platform linux-6
 RPY2_CFFI_MODE = "ABI"
 
 [dependencies]
-python = "3.13.*"
+python = "=3.12.15"
 mystmd = ">=1.10.1,<2" # mystmd
 seaborn = ">=0.13.2,<0.14"
 pandas = ">=3.0.3,<4"
