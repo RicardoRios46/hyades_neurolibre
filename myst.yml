@@ -4,7 +4,6 @@ project:
   id: f718c15b-824f-4326-9628-575a46bb455b
   # keep identical to the title in paper.md frontmatter
   title: 'Probing gray matter microstructure differences in neurodegenerative dementia using b-tensor encoding diffusion MRI'
-  # one entry per department; full text in `institution` because the site theme shows only the name, not `department`
   affiliations:
     - id: robarts
       institution: Robarts Research Institute, Schulich School of Medicine & Dentistry, Western University
@@ -122,7 +121,7 @@ project:
   numbering:
     heading: true
   doi: 10.55458/neurolibre.xxxxx  # placeholder, assigned by NeuroLibre on publication
-  date: 2026-10-08  # NeuroLibre submission date
+  #date: 2026-10-08  # NeuroLibre submission date
   open_access: true
   license:
     content: CC-BY-4.0
@@ -168,4 +167,3 @@ project:
     - content/section2_hippocampus.ipynb
 site:
   template: article-theme
-  # site title: inherited from project.title
