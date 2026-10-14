@@ -2,7 +2,9 @@
 
 `pixi workspace export conda-environment` writes the version ranges from pixi.toml. Binder/NeuroLibre build on
 linux-64, so each direct dependency is pinned to the version pixi.lock resolves there (the versions reported in the
-Methods). Run through `pixi run binder-env`, which exports the environment first.
+Methods). Exceptions requested by NeuroLibre (2026-10-09): python is pinned to major.minor only, and the Jupyter
+runtime packages in UNPINNED are left for the build to resolve. Run through `pixi run binder-env`, which exports the
+environment first.
 """
 import json
 import re
@@ -10,6 +12,7 @@ import subprocess
 import sys
 
 ENV_FILE = "binder/environment.yml"
+UNPINNED = {"ipykernel", "nbconvert", "jupyter_server"}
 
 locked = json.loads(subprocess.run(
     ["pixi", "list", "--platform", "linux-64", "--explicit", "--json"],
@@ -23,7 +26,11 @@ for line in lines:
     if not line.startswith("- "):
         in_deps = line.startswith("dependencies:")
     m = re.match(r"^- ([A-Za-z0-9_.\-]+)(?:\s.*)?$", line) if in_deps else None
-    if m and m.group(1) in versions:
+    if m and m.group(1) in UNPINNED:
+        line = f"- {m.group(1)}"
+    elif m and m.group(1) == "python":
+        line = f"- python ={'.'.join(versions['python'].split('.')[:2])}"
+    elif m and m.group(1) in versions:
         line = f"- {m.group(1)} ={versions[m.group(1)]}"
     elif m:
         missing.append(m.group(1))

@@ -69,7 +69,7 @@ For ROI-metric combinations that survived FDR correction (p<0.05), we performed 
 
 For the hippocampal subfield analysis, we performed ANCOVAs controlling for age, sex and hemisphere for each metric and subfield combination. We included the surface-based metrics provided by HippUnfold in the ANCOVA analysis. Finally, we calculated $\omega^2_p$ for effect size measurement and applied the same FDR correction for multiple comparisons. 
 
-We performed the analyses in Python (version 3.13.14) with pandas (3.0.3), NumPy (2.5.0), SciPy (1.18.0) and statsmodels (0.14.6), and in R (version 4.5.3), called through rpy2 (3.6.7), using car (3.1-5) for the ANCOVAs and assumption tests, effectsize (1.0.2) for the effect sizes, and marginaleffects (0.32.0) for the post-hoc comparisons. We created the figures with plotly (6.8.0), seaborn (0.13.2) and matplotlib (3.11.0), and the demographics table with tableone (0.9.6).
+We performed the analyses in Python (version 3.12.15) with pandas (3.0.6), NumPy (2.5.3), SciPy (1.18.1) and statsmodels (0.14.6), and in R (version 4.5.3), called through rpy2 (3.6.8), using car (3.1-5) for the ANCOVAs and assumption tests, effectsize (1.0.3) for the effect sizes, and marginaleffects (0.32.0) for the post-hoc comparisons. We created the figures with plotly (6.9.0), seaborn (0.13.2) and matplotlib (3.11.2), and the demographics table with tableone (0.9.6).
 
 # Results
 
