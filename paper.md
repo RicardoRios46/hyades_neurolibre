@@ -91,7 +91,7 @@ Summary of age, sex and group distributions of the participants included in the 
 
 [](#fig_wholebrain_ROIs) shows example quantitative MRI maps and ROIs from a participant in the AD group.
 
-:::{figure} static/roi_maps.svg
+:::{figure} static/roi_maps.png
 :label: fig_wholebrain_ROIs
 Representative quantitative MRI maps and ROIs of a participant with AD. A) 3D visualization of segmented brain structures. B) ROIs shown over an anatomical T1w image. C) Magnetization transfer saturation (MTsat). D) Fractional anisotropy (FA). E) Mean diffusivity (MD). F) Microscopic fractional anisotropy (µFA). G) Isotropic kurtosis (Ki).
 :::
@@ -135,7 +135,7 @@ Partial Hedges’ g for the pairwise group contrasts of the exploratory post-hoc
 [](#fig_hippocampus_ROIs) shows the segmented hippocampus and the corresponding µFA map for an HC participant and a participant with AD; the participant with AD shows qualitatively enlarged ventricles and hippocampal atrophy. The metrics sampled over the whole hippocampus in the HippUnfold surface space recapitulated the findings from the whole-brain hybrid segmentation (Supplementary [](#fig_hippocampus_metrics)). With age, MD tended to increase while volume, MTsat and µFA decreased in all groups (Supplementary [](#fig_hippocampus_ageMetrics)).
 
 
-:::{figure} static/hippunfold_segmentation.svg
+:::{figure} static/hippunfold_segmentation.png
 :label: fig_hippocampus_ROIs
 A) Segmented hippocampus and its subfields over an anatomical T1w image. B) Microscopic fractional anisotropy (µFA) maps with the hippocampus ROI. Rows show representative examples of a healthy control and a participant with AD. Lower µFA can be qualitatively observed in the participant with AD (arrows).
 :::
