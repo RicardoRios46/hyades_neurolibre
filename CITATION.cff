@@ -1,0 +1,70 @@
+cff-version: "1.2.0"
+type: software
+authors:
+- family-names: Rios-Carrillo
+  given-names: Ricardo
+  orcid: "https://orcid.org/0000-0002-8344-5624"
+- family-names: Malik
+  given-names: Rubina
+- family-names: So
+  given-names: Isis
+  orcid: "https://orcid.org/0000-0001-6232-2644"
+- family-names: Moon
+  given-names: Kyeongrim
+  orcid: "https://orcid.org/0009-0000-4330-1987"
+- family-names: Khan
+  given-names: Ali R.
+  orcid: "https://orcid.org/0000-0002-0760-8647"
+- family-names: Finger
+  given-names: Elizabeth
+  orcid: "https://orcid.org/0000-0003-4461-7427"
+- family-names: Baron
+  given-names: Corey A.
+  orcid: "https://orcid.org/0000-0001-7343-5580"
+contact:
+- email: corey.baron@uwo.ca
+  family-names: Baron
+  given-names: Corey A.
+  orcid: "https://orcid.org/0000-0001-7343-5580"
+doi: 10.55458/neurolibre.00052
+repository-code: "https://github.com/RicardoRios46/hyades_neurolibre"
+license:
+- MIT
+- CC-BY-4.0
+message: To reference this work, please cite our reproducible preprint
+  in NeuroLibre.
+preferred-citation:
+  authors:
+  - family-names: Rios-Carrillo
+    given-names: Ricardo
+    orcid: "https://orcid.org/0000-0002-8344-5624"
+  - family-names: Malik
+    given-names: Rubina
+  - family-names: So
+    given-names: Isis
+    orcid: "https://orcid.org/0000-0001-6232-2644"
+  - family-names: Moon
+    given-names: Kyeongrim
+    orcid: "https://orcid.org/0009-0000-4330-1987"
+  - family-names: Khan
+    given-names: Ali R.
+    orcid: "https://orcid.org/0000-0002-0760-8647"
+  - family-names: Finger
+    given-names: Elizabeth
+    orcid: "https://orcid.org/0000-0003-4461-7427"
+  - family-names: Baron
+    given-names: Corey A.
+    orcid: "https://orcid.org/0000-0001-7343-5580"
+  date-published: 2026-11-05
+  doi: 10.55458/neurolibre.00052
+  journal: NeuroLibre Reproducible Preprints
+  publisher:
+    name: NeuroLibre
+  start: 52
+  title: Probing gray matter microstructure differences in
+    neurodegenerative dementia using b-tensor encoding diffusion MRI
+  type: article
+  url: "https://neurolibre.org/papers/10.55458/neurolibre.00052"
+title: Probing gray matter microstructure differences in
+  neurodegenerative dementia using b-tensor encoding diffusion MRI
+
