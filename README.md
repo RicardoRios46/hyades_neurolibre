@@ -1,6 +1,6 @@
 # HYADES MyST Preprint
 
-This repository contains the source for the manuscript *"Probing gray matter microstructure differences in neurodegenerative dementia using b-tensor encoding diffusion MRI"* (preprint on NeuroLibre; DOI to be added). It includes the manuscript source and the reproducible analysis notebooks written using [MyST Markdown](https://mystmd.org).
+This repository contains the source for the manuscript [*"Probing gray matter microstructure differences in neurodegenerative dementia using b-tensor encoding diffusion MRI"*](https://doi.org/10.55458/neurolibre.00052) (reproducible preprint on NeuroLibre). It includes the manuscript source and the reproducible analysis notebooks written using [MyST Markdown](https://mystmd.org).
 
 ## Related repositories
 
@@ -30,7 +30,8 @@ This paper is part of a set of four linked repositories:
 ├── supplementary.md  # Supplementary material
 ├── paper.bib         # Bibliography
 ├── pixi.toml         # Pixi environment/dependency specification
-└── pixi.lock         # Locked dependency versions
+├── pixi.lock         # Locked dependency versions
+└── CITATION.cff      # Citation metadata (GitHub "Cite this repository")
 ```
 
 ## Getting started
@@ -145,15 +146,17 @@ Each notebook reads the data from `data/hyades-tabular/` or `data/` (see [Data](
 
 ## Citation
 
-If you use this work, please cite:
+If you use this work, please cite the NeuroLibre reproducible preprint (also in [`CITATION.cff`](./CITATION.cff)):
 
 ```bibtex
-@misc{rioscarrillo_hyades_2026,
-  title  = {Probing gray matter microstructure differences in neurodegenerative dementia using b-tensor encoding diffusion {MRI}},
-  author = {Rios-Carrillo, Ricardo and Malik, Rubina and So, Isis and Moon, Kyeongrim and Khan, Ali R. and Finger, Elizabeth and Baron, Corey A.},
-  year   = {2026},
-  note   = {Preprint on NeuroLibre; DOI to be added},
-  url    = {https://github.com/RicardoRios46/hyades_neurolibre},
+@article{rioscarrillo_hyades_2026,
+  title   = {Probing gray matter microstructure differences in neurodegenerative dementia using b-tensor encoding diffusion {MRI}},
+  author  = {Rios-Carrillo, Ricardo and Malik, Rubina and So, Isis and Moon, Kyeongrim and Khan, Ali R. and Finger, Elizabeth and Baron, Corey A.},
+  journal = {NeuroLibre Reproducible Preprints},
+  year    = {2026},
+  pages   = {52},
+  doi     = {10.55458/neurolibre.00052},
+  url     = {https://doi.org/10.55458/neurolibre.00052},
 }
 ```
 

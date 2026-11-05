@@ -124,8 +124,8 @@ project:
   subject: Living Preprint
   numbering:
     heading: true
-  doi: 10.55458/neurolibre.xxxxx  # placeholder, assigned by NeuroLibre on publication
-  date: '2026-10-08'
+  doi: 10.55458/neurolibre.00052
+  date: '2026-11-05'
   open_access: true
   license:
     content: CC-BY-4.0
